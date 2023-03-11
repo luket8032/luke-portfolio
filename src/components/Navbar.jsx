@@ -2,13 +2,13 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <div className='text-white font-poppins flex justify-left h-24 px-4 mx-[5%] items-center'>
-        <h1 className='w-full font-medium text-5xl'> Luke Tran </h1>
+    <div className='font-poppins bg-neutral-700 flex justify-left h-20 py-4 px-24 items-end text-white'>
+        <h1 className='w-full font-medium text-5xl h-12'> Luke Tran </h1>
         <ul className='flex justify-between text-center text-xl font-light'>
-            <li className='p-4 w-44'>About Me</li>
-            <li className='p-4 w-44'>Skills</li>
-            <li className='p-4 w-44'>My Projects</li>
-            <li className='p-4 w-44'>Contact Me</li>
+            <li className='p-4 w-fit h-12 pt-5'>About</li>
+            <li className='p-4 w-fit h-12 pt-5'>Skills</li>
+            <li className='p-4 w-fit h-12 pt-5'>Projects</li>
+            <li className='p-4 w-fit h-12 pt-5'>Contact</li>
         </ul>
     </div>
   )
