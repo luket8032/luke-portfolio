@@ -3,7 +3,7 @@ import realpfp from '../assets/Luke_Profile.jpg'
 
 const about = () => {
   return (
-    <div className='h-[600px] mx-[5%] p-16 bg-neutral-700 rounded-3xl' id='about'>
+    <div className='h-[600px] mx-[5%] p-16 bg-neutral-700 rounded-3xl shadow-xl' id='about'>
         <div className='flex'>
             <img className='w-96 h-96 rounded-full m-10' src={realpfp} alt='realpfp'></img>
             <div className='font-poppins text-white p-4' id='about text'>
