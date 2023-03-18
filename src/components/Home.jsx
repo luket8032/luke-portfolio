@@ -3,7 +3,7 @@ import pfp from '../assets/memoji_pfp.png'
 
 const Hero = () => {
   return (
-    <div className='flex p-16 m-10 items-center h-[600px]' id="Home">
+    <div className='flex p-16 m-10 items-center h-[600px]' id="home">
         <div className='font-poppins justify-left text-white w-full ml-[5%]' id='homeText'>
             <h1 className='text-xl p-1'>Hi, my name is</h1>
             <h1 className='text-6xl p-1'>Luke Tran</h1>
