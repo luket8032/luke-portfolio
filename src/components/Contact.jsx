@@ -24,6 +24,8 @@ const sendEmail = (e) => {
     console.log("something went wrong")
     formError();
   });
+
+  
 };
 
   return (
