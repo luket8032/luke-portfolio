@@ -39,7 +39,7 @@ const sendEmail = (e) => {
             <input name='user_email' id='user_email' className='rounded-md w-full text-black p-2 shadow-lg' placeholder='name@example.com'></input>            
             <label className='text-xl my-2'>Message: </label>
             <textarea name='message' id='message' rows={8} className='rounded-md w-full text-black p-2 shadow-lg' placeholder='Leave a message...'></textarea>
-            <button type='submit' value='Send' className='my-4 h-10 w-36 bg-blue-500 rounded-md'>Send Message</button>
+            <button type='submit' value='Send' className='my-4 h-10 w-36 bg-blue-500 hover:bg-blue-700 rounded-md'>Send Message</button>
             <ToastContainer/>
           </form>
         </div>
