@@ -1,5 +1,6 @@
 import React from 'react'
 import realpfp from '../assets/Luke_Profile.jpg'
+import { Link } from 'react-scroll'
 
 const about = () => {
   return (
@@ -13,7 +14,7 @@ const about = () => {
               I really enjoy web development because of the satisfaction that comes from the work. It feels great to work together with others and find 
               solutions to problems to make people's lives a little bit easier. <br></br> <br></br>
               After I graduate, I plan to start a career in web development doing either front-end or back-end work. I would love to work with anyone to help me do so, please contact me! </p>
-              <a href='#contact' className='font-poppins text-white bg-blue-500 rounded-md py-2 px-3  '> Contact me!</a>
+              <button className='my-4 h-10 w-36 bg-blue-500 rounded-md'><Link to="contact" spy={true} smooth={true} offset={-100} duration={500}>Contact me!</Link></button>
             </div>
         </div>
     </div>
