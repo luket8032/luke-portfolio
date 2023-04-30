@@ -17,13 +17,13 @@ const Skills = () => {
             <AnimationOnScroll animateIn="animate__bounceInRight" delay={200}>
               <div className='bg-neutral-700 text-center p-8 rounded-xl shadow-xl'><SiReact size={140} className='mb-6'/>React</div>
             </AnimationOnScroll>
-            <AnimationOnScroll animateIn="animate__bounceInRight" delay={300}>
+            <AnimationOnScroll animateIn="animate__bounceInRight" delay={100}>
             <div className='bg-neutral-700 text-center p-8 rounded-xl shadow-xl'><SiVuedotjs size={140} className='mb-6'/>VueJS</div>
             </AnimationOnScroll>
-            <AnimationOnScroll animateIn="animate__bounceInRight" delay={400}>
+            <AnimationOnScroll animateIn="animate__bounceInRight" delay={200}>
             <div className='bg-neutral-700 text-center p-8 rounded-xl shadow-xl'><BsFiletypeSql size={140} className='mb-6'/>SQL</div>
             </AnimationOnScroll>
-            <AnimationOnScroll animateIn="animate__bounceInRight" delay={500}>
+            <AnimationOnScroll animateIn="animate__bounceInRight" delay={300}>
             <div className='bg-neutral-700 text-center p-8 rounded-xl shadow-xl'><SiTailwindcss size={140} className='mb-6'/>Tailwind</div>
             </AnimationOnScroll>
         </div>
