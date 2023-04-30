@@ -3,6 +3,7 @@ import emailjs from '@emailjs/browser'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import './contact.css'
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 const Contact = () => {
 const form = useRef();
@@ -24,12 +25,10 @@ const sendEmail = (e) => {
     console.log("something went wrong")
     formError();
   });
-
-  
 };
-
   return (
-    <div className='font-poppins text-white h-fit m-[10%]' id='contact'>
+    <AnimationOnScroll animateIn='animate__fadeInLeft'>
+      <div className='font-poppins text-white h-fit m-[10%]' id='contact'>
         <h1 className='text-5xl text-center'>Contact Me!</h1>
         <div className='font-poppins text-white m-auto w-[40%] items-center' id='contact form'>
           <form className='place-content-center p-4' ref={form} onSubmit={sendEmail}>            
@@ -43,7 +42,8 @@ const sendEmail = (e) => {
             <ToastContainer/>
           </form>
         </div>
-    </div>
+      </div>  
+    </AnimationOnScroll>
   )
 }
 
