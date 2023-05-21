@@ -28,7 +28,7 @@ const Projects = () => {
                     <p className='text-center'>My portfolio website highlights my front-end development skills and user-centric approach. I create visually appealing designs and responsive layouts using HTML and Tailwind CSS</p>
                     <div id='project-btns' className='flex justify-center gap-5'>
                         <a href="http://localhost:3000/" className='my-4 h-fit w-20 p-2 flex justify-center bg-blue-500 hover:bg-blue-700 rounded-md transition ease-in-out hover:scale-110 hover:-translate-y-1' ><CgWebsite size={25}/></a>
-                        <a href="http://localhost:3000/" className='my-4 h-fit w-20 p-2 flex justify-center bg-blue-500 hover:bg-blue-700 rounded-md transition ease-in-out hover:scale-110 hover:-translate-y-1' ><SiGithub size={25}/></a>
+                        <a href="https://github.com/luket8032/luke-portfolio" className='my-4 h-fit w-20 p-2 flex justify-center bg-blue-500 hover:bg-blue-700 rounded-md transition ease-in-out hover:scale-110 hover:-translate-y-1' ><SiGithub size={25}/></a>
                     </div>
                 </div>
                 
