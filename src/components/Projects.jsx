@@ -18,7 +18,7 @@ const Projects = () => {
                     <p className='text-center'>CatHub is a a web app built using React and The Cat API. CatHub provides a search tool and downloads for images of cats. CatHub also gives information of different cat breeds!</p>
                     <div id='project-btns' className='flex justify-center gap-5'>
                         <a href="https://cat-app-luket8032.vercel.app/" className='my-4 h-fit w-20 p-2 flex justify-center bg-blue-500 hover:bg-blue-700 rounded-md transition ease-in-out hover:scale-110 hover:-translate-y-1' ><CgWebsite size={25}/></a>
-                        <a href="http://localhost:3000/" className='my-4 h-fit w-20 p-2 flex justify-center bg-blue-500 hover:bg-blue-700 rounded-md transition ease-in-out hover:scale-110 hover:-translate-y-1' ><SiGithub size={25}/></a>
+                        <a href="https://github.com/luket8032/cat-app" className='my-4 h-fit w-20 p-2 flex justify-center bg-blue-500 hover:bg-blue-700 rounded-md transition ease-in-out hover:scale-110 hover:-translate-y-1' ><SiGithub size={25}/></a>
                     </div>
                 </div>
 
