@@ -8,9 +8,9 @@ import { AnimationOnScroll } from 'react-animation-on-scroll';
 const Contact = () => {
 const form = useRef();
 
-const formError = () => toast("Something went wrong bro.")
+const formError = () => toast("Something went wrong.")
 
-const formSuccess = () => toast("Email sent homie!")
+const formSuccess = () => toast("Email sent successfully!")
 
 const sendEmail = (e) => {
   e.preventDefault();
